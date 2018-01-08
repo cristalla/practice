@@ -1,5 +1,5 @@
 
-my git repo data -> copy to my local
+### my git repo data -> copy to my local ##########################
 => git clone 
 
 0. create git repo -> public, readme
@@ -11,7 +11,7 @@ my git repo data -> copy to my local
 4. > cd [git repo dir]
 5. > git status
 
-my local data -> connect to my  git repo
+### my local data -> connect to my  git repo ######################
 => git remote
 
 1. create git repo to be connected from my local data
@@ -28,3 +28,16 @@ my local data -> connect to my  git repo
   => [alias]   ... (push)
   => origin    ...(fetch)
   => origin    ...(push)
+
+### upload data from my local to my git repo ######################
+
+1. git add [file]
+
+2. git commit
+
+3. git push
+
+
+
+
+
