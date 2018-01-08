@@ -1,0 +1,30 @@
+
+my git repo data -> copy to my local
+=> git clone 
+
+0. create git repo -> public, readme
+1. git copy with ssh/https
+2. my local
+   > git clone [copied]
+
+3. > ls => check if local dir of git repo has been created
+4. > cd [git repo dir]
+5. > git status
+
+my local data -> connect to my  git repo
+=> git remote
+
+1. create git repo to be connected from my local data
+   -> public, NO readme
+
+2. my local
+   > git remote add [alias of repo] [copied]
+
+3.check correctly connected
+  > git remote -v
+  
+  (correctly connected result as follows)
+  => [alias]   .... (fetch)
+  => [alias]   ... (push)
+  => origin    ...(fetch)
+  => origin    ...(push)
